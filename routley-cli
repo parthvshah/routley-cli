@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# routley-cli — wrapper that launches the shopping list from any directory.
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec python3 "$SCRIPT_DIR/shopping_list.py" "$@"

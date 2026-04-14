@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Data
+~/.shopping_list_data.json
+
+# macOS
+.DS_Store
