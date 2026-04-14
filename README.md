@@ -1,5 +1,4 @@
-# Shopping List CLI
-
+# Routley (Command Line Interface)
 A terminal shopping list that learns the layout of your store. The first time you use it, items appear in the order you added them. As you check items off during each shopping trip, the app records the sequence — and on your next visit, it automatically sorts new items into the order you'll encounter them in the store.
 
 ## Requirements
